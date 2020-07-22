@@ -1,0 +1,36 @@
+Questions:
+	What is the latency from iPad sending command to robot acting on it?
+	How much will overwhelm the Arduino input?
+	
+
+
+!Important!
+	Need to do test to see how much will overload the Arduino. If it could be done in a reasonable case, I need to make sure most recent commands are given priority. Really, toss older commands.
+
+
+
+Communication needed:
+//ideology: Arduino is only the interface for the physical motors and things. It should be doing as little thinking as possible. 
+
+From iPad to Arduino:
+ 
+Left Motor
+Right Motor
+
+
+From Arduino to iPad:
+
+
+
+
+
+
+//Not sure if I want to keep it crazy light weight or more of a protocol. 
+//ex.
+
+Left		Right
+Q=100%		E=100%
+A=80%		D=80%
+Z=60%		C=60%	//I don't think I can send via Bluetooth quick enough to do a sort PWM with it.
+
+
