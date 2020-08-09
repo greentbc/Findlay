@@ -76,3 +76,22 @@ if ((speed < 0) || (speed > 255)){
     return;
   }
 }
+
+
+void Motor::testMotor(){
+  delay(2000);
+  lMotor(150, true); 
+  rMotor(150, true); 
+  delay(2000); 
+  lMotor(0, false); 
+  rMotor(0, false);  
+  delay(2000);
+  lMotor(150, false); 
+  rMotor(150, false); 
+  delay(2000);
+  lMotor(255, true); 
+  rMotor(255, false); 
+  delay(2000);
+  lMotor(0, false); 
+  rMotor(0, false);  
+}

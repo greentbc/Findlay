@@ -18,6 +18,10 @@ Left Motor
 Right Motor
 
 
+
+!Should data from iPad be converted Motor actions in the main Arduino .ino file, or in the Motor class, or is that a good time to actually make use Bluetooth.cpp? Related: can SerialEvent1() live in Bluetooth.cpp?
+
+
 From Arduino to iPad:
 
 

@@ -8,7 +8,6 @@
 
 
 
-
 class Motor{
 // Right Motor connections
 static const int rMoEn = 7;   //green wire //enable right motor
@@ -25,6 +24,9 @@ static const int lMoIn2 = 6;  //blue wire
     Motor();
     void rMotor(byte speed, bool direction);//should be between 0-255 True is forward, False is Backward
     void lMotor(byte speed, bool direction);//should be between 0-255 True is forward, False is Backward
+    void testMotor();//I should think of a through test for this. 
+    //Right now it goes forward slowly, stop, backward slowly, stop, spin fast, stop
+
     
   private:
 
