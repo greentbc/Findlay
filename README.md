@@ -1,5 +1,5 @@
 # Findlay
-Autonomous lil' robot project. No defined scope other than cool things.
+Autonomous lil' robot project. No defined scope other than current intrests.
 
 Hardware used:
     Arduino Mega 2560
